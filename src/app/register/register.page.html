@@ -5,14 +5,67 @@
 <ion-content class="ion-padding">
   <div class="title">
     <h4>Signup</h4>
-    <p>Register with Code Crafts to get started</p>
   </div>
 
-  <ion-input placeholder="Full Name" class="primary-input"></ion-input>
-  <ion-input placeholder="Username" class="primary-input"></ion-input>
+  <p>Full Name</p>
+  <ion-input placeholder="E.g : Kapt Ismail bin Ibrahim" class="primary-input"></ion-input>
+  
+  <p>Username</p>
+  <ion-input placeholder="E.g : Kapt Ismail" class="primary-input"></ion-input>
+  
+  <p>Password</p>
   <ion-input placeholder="Password" type="password" class="primary-input"></ion-input>
 
-  <p>By signing up you're agreed to our Terms & Conditions</p>
+  <div class="title">
+    <h4>COVID-19 Screening</h4>
+  </div>
+
+  <p>Have you completed two doses of vaccine?</p>
+  <ion-item lines="none">
+    <ion-checkbox checked color="primary"></ion-checkbox>
+    <ion-label class="question">Yes</ion-label>
+
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">No</ion-label>
+  </ion-item>
+
+  <p>In the last 14 days. have you ever been in close contact with COVID-19 patients?</p>
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Yes</ion-label>
+
+    <ion-checkbox checked color="primary"></ion-checkbox>
+    <ion-label class="question">No</ion-label>
+  </ion-item>
+
+  <p>Do you have any of these symptoms?</p>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Body Temperature exceeding 37.5C</ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Cough</ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Shortness of breath</ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Having trouble breathing</ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Loss of sense of taste/smell</ion-label>
+  </ion-item>
+  
+  <p>By submitting this I agree that all information provided is true.</p>
 
   <div class="ion-margin-top">
     <ion-button expand="block" (click)="register()">SIGN UP</ion-button>
