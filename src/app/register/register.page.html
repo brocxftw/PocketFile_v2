@@ -3,75 +3,75 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <div class="title">
+  <!-- <div class="title">
     <h4>Signup</h4>
-  </div>
+  </div> -->
 
-  <p>Full Name</p>
+  <!-- <p>Full Name</p>
   <ion-input placeholder="E.g : Kapt Ismail bin Ibrahim" class="primary-input"></ion-input>
   
   <p>Username</p>
   <ion-input placeholder="E.g : Kapt Ismail" class="primary-input"></ion-input>
   
   <p>Password</p>
-  <ion-input placeholder="Password" type="password" class="primary-input"></ion-input>
+  <ion-input placeholder="Password" type="password" class="primary-input"></ion-input> -->
 
   <div class="title">
-    <h4>COVID-19 Screening</h4>
+    <h4>Tapisan COVID-19</h4>
   </div>
 
-  <p>Have you completed two doses of vaccine?</p>
+  <p>Adakah anda sudah divaksin?</p>
   <ion-item lines="none">
     <ion-checkbox checked color="primary"></ion-checkbox>
-    <ion-label class="question">Yes</ion-label>
+    <ion-label class="question">Ya</ion-label>
 
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">No</ion-label>
+    <ion-label class="question">Belum</ion-label>
   </ion-item>
 
-  <p>In the last 14 days. have you ever been in close contact with COVID-19 patients?</p>
+  <p>Adakah anda kontak rapat dengan mana-mana pesakit atau orang yang disyaki positif COVID-19?</p>
   <ion-item lines="none">
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Yes</ion-label>
+    <ion-label class="question">Ada</ion-label>
 
     <ion-checkbox checked color="primary"></ion-checkbox>
-    <ion-label class="question">No</ion-label>
+    <ion-label class="question">Tiada</ion-label>
   </ion-item>
 
-  <p>Do you have any of these symptoms?</p>
+  <p>Adakah anda mempunyai simptom berikut?</p>
 
   <ion-item lines="none">
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Body Temperature exceeding 37.5C</ion-label>
-  </ion-item>
-
-  <ion-item lines="none">
-    <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Cough</ion-label>
+    <ion-label class="question">Suhu badan melebihi 37.5C</ion-label>
   </ion-item>
 
   <ion-item lines="none">
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Shortness of breath</ion-label>
+    <ion-label class="question">Demam</ion-label>
   </ion-item>
 
   <ion-item lines="none">
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Having trouble breathing</ion-label>
+    <ion-label class="question">Batuk-batuk</ion-label>
   </ion-item>
 
   <ion-item lines="none">
     <ion-checkbox color="primary"></ion-checkbox>
-    <ion-label class="question">Loss of sense of taste/smell</ion-label>
+    <ion-label class="question">Kesukaran bernafas</ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-checkbox color="primary"></ion-checkbox>
+    <ion-label class="question">Hilang deria bau atau rasa</ion-label>
   </ion-item>
   
-  <p>By submitting this I agree that all information provided is true.</p>
+  <p>Saya mengakui bahawa semua maklumat di atas adalah <b>benar</b>.</p>
 
   <div class="ion-margin-top">
-    <ion-button expand="block" (click)="register()">SIGN UP</ion-button>
+    <ion-button expand="block" (click)="register()">Hantar</ion-button>
   </div>
 
   <div class="ion-margin-top ion-text-center">
-    <a (click)="dismiss()">Close</a>
+    <a (click)="dismiss()">Kembali</a>
   </div>
 </ion-content>
