@@ -23,4 +23,10 @@ export class HomePage {
     console.log("gotoschedule called");
     // this.router.navigateByUrl('contacts');
   }
+
+  logOut() {
+    console.log("Logging out..");
+    this.router.navigateByUrl('welcome');
+  }
+
 }

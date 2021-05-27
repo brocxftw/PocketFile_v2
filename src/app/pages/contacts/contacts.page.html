@@ -5,5 +5,9 @@
 </ion-header>
 
 <ion-content>
-  <h1>This is the contacts page</h1>
+  <ion-list>
+    <ion-item *ngFor="let c of contacts">
+      <h3>{{ c.name }}</h3>
+    </ion-item>
+  </ion-list>
 </ion-content>

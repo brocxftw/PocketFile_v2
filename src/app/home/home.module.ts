@@ -8,42 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
-// const routes: Routes = [
-//   {
-//     path: 'home',
-//     component: HomePage,
-//     children: [
-//       {
-//         path: 'schedule',
-//         loadChildren: () => import('../pages/schedule/schedule.module').then( m => m.SchedulePageModule),
-//         // pathMatch: 'full',
-//       },
-//       {
-//         path: 'contacts',
-//         loadChildren: () => import('../pages/contacts/contacts.module').then( m => m.ContactsPageModule),
-//         // pathMatch: 'full',
-//       },
-//       {
-//         path: 'references',
-//         loadChildren: () => import('../pages/references/references.module').then( m => m.ReferencesPageModule)
-//       },
-//       {
-//         path: 'settings',
-//         loadChildren: () => import('../pages/settings/settings.module').then( m => m.SettingsPageModule)
-//       },
-//       {
-//         path: 'profile',
-//         loadChildren: () => import('../pages/profile/profile.module').then( m => m.ProfilePageModule)
-//       },
-//       {
-//         path: '',
-//         redirectTo: '/home/schedule',
-//         // pathMatch: 'full',
-//       },
-      
-//     ]
-//   },
-// ];
+const routes: Routes = [];
 
 @NgModule({
   imports: [
