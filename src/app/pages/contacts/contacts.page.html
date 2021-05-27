@@ -7,7 +7,11 @@
 <ion-content>
   <ion-list>
     <ion-item class="contactItems" *ngFor="let c of contacts">
-      <h4>{{ c.name }}</h4>
+
+      <ion-label>{{ c.name }}</ion-label>
     </ion-item>
   </ion-list>
+  <!-- <ion-fab slot="fixed">
+    <ion-fab-button>Button</ion-fab-button>
+  </ion-fab> -->
 </ion-content>
