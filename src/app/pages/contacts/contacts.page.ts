@@ -63,7 +63,31 @@ export class ContactsPage implements OnInit {
       name: 'Mej Zulhadi bin Zulkifli (3543125)',
       phone: '',
     },
-
+    { 
+      picture: '',
+      name: 'Mej Zulhadi bin Zulkifli (3543125)',
+      phone: '',
+    },
+    { 
+      picture: '',
+      name: 'Mej Zulhadi bin Zulkifli (3543125)',
+      phone: '',
+    },
+    { 
+      picture: '',
+      name: 'Mej Zulhadi bin Zulkifli (3543125)',
+      phone: '',
+    },
+    { 
+      picture: '',
+      name: 'Mej Zulhadi bin Zulkifli (3543125)',
+      phone: '',
+    },
+    { 
+      picture: '',
+      name: 'Mej Zulhadi bin Zulkifli (3543125)',
+      phone: '',
+    },
   ];
 
   constructor() { }
