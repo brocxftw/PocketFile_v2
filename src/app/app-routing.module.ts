@@ -24,6 +24,26 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
+  // {
+  //   path: 'references',
+  //   loadChildren: () => import('./pages/references/references.module').then( m => m.ReferencesPageModule)
+  // },
+  // {
+  //   path: 'settings',
+  //   loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  // },
+  // {
+  //   path: 'profile',
+  //   loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
+  // },
+  // {
+  //   path: 'contacts',
+  //   loadChildren: () => import('./pages/contacts/contacts.module').then( m => m.ContactsPageModule)
+  // },
+  // {
+  //   path: 'schedule',
+  //   loadChildren: () => import('./pages/schedule/schedule.module').then( m => m.SchedulePageModule)
+  // },
 ];
 
 @NgModule({

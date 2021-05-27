@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuController } from '@ionic/angular';
+import { Router, RouterEvent } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,32 +8,19 @@ import { MenuController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  selectedPath = "";
 
-  constructor(private menu: MenuController) { }
-  
-    openFirst() {
-      this.menu.enable(true, 'first');
-      this.menu.open('first');
-    }
-  
-    openEnd() {
-      this.menu.open('end');
-    }
-  
-    openCustom() {
-      this.menu.enable(true, 'custom');
-      this.menu.open('custom');
-    }
+  constructor(
+    private menu: MenuController,
+    private router: Router,
+  ) {
+      this.router.events.subscribe((event: RouterEvent) => {
+        this.selectedPath = event.url;
+      });
+  }
 
+  goToPage() {
+    console.log("gotoschedule called");
+    // this.router.navigateByUrl('contacts');
+  }
 }
-
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'menu-example',
-//   templateUrl: 'menu-example.html',
-//   styleUrls: ['./menu-example.css'],
-// })
-// export class MenuExample {
-
-// }
