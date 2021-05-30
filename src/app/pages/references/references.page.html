@@ -2,8 +2,9 @@
 <ion-content>
   <ion-list>
     <!-- <h1>References.</h1> -->
-    <ion-item *ngFor="let r of references">
-      <ion-label>{{ r.name }}</ion-label>
+    <ion-item  *ngFor="let r of references">
+      <ion-label [routerLink]="r.url">{{ r.name }}</ion-label>
+      <p><a href="{{ r.url }}">open</a></p> 
     </ion-item>
   </ion-list>
 </ion-content>
