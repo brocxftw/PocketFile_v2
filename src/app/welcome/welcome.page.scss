@@ -4,9 +4,34 @@
 }
 
 .title {
+    // text-size-adjust: 80%;
     margin-bottom: 30px;
+    color: whitesmoke;
+    font-weight: bolder;
 }
 
 .title p {
     margin-top: 0 !important;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.buttonContainer {
+    margin-top: 20%;
+}
+
+.version {
+    color: whitesmoke;
+    margin-top: 45%;
+    font-size: 10px;
+}
+
+ion-content {
+    --background: url(../../assets/welcome_screen_small.jpeg);
+    // --background: url(../../assets/bg_small2.jpeg);
+
+    // --background-repeat: no-repeat;
+    --background-size: cover;  
+     
 }

@@ -2,16 +2,21 @@
 
 </ion-header>
 
-<ion-content class="ion-padding ion-text-center" color="primary">
-    <img src="../../assets/cks.png" class="logo" />
+<ion-content class="ion-padding ion-text-center bg">
+    <img src="../../assets/logo_pulada.png" class="logo" />
 
     <div class="title">
-        <h2>Pusat Latihan Tempur Tentera Darat</h2>
-        <p>Kursus Ketua Seksyen Siri 2/2021</p>
+        <h1>Integrated Student's Pocket File (i-SPF)</h1>
+        <p>Pusat Latihan Tempur Tentera Darat</p>
     </div>
 
-    <div class="ion-margin-top">
-        <ion-button expand="block" class="ion-margin-top" (click)="register()" fill="outline" color="white">Daftar</ion-button>
-        <ion-button expand="block" class="ion-margin-top" (click)="login()" color="white">Log Masuk</ion-button>
+    <div class="buttonContainer">
+        <ion-button expand="block" class="ion-margin-top" (click)="login()" fill="outline"  size="large" color="white">Log Masuk</ion-button>
+        <ion-button expand="block" class="ion-margin-top" (click)="register()" fill="outline" color="warning">Daftar/Melapor Kursus</ion-button>
     </div>
+
+    <ion-footer class="version">
+        Revogrades@2021 | <i>Version 1.3</i>
+    </ion-footer>
+
 </ion-content>
